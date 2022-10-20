@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
-    color: rgb(10, 10, 70);
+    color: rgb(5, 5, 52);
     background-color: rgb(161, 236, 235);
+    background-size: auto;
 }
