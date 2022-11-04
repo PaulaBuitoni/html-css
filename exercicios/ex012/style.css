@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+nav {
+    background-color: gray;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+
+form#form-newslet {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    width: 95vw;
+    margin: 20px;
+}
+
+div.newsletter > form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.newsletter > form > section#info {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+div.newsletter > form > section#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+}
+
+div.newsletter > form > section#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 200px;
+}
+
+.inp-email {
+    height: 40px;
+    width: 40vw;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 3vw;
+}
+
+.btn-primary {
+    height: 40px;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: #dc0293;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
